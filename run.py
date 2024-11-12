@@ -34,6 +34,10 @@ def play_battleships():
     print ("Enter your guesses as row and column numbers (0-4).")
     print_grid(grid)
 
+    #Get player's guess
+    guess_row=int(input("Guess row (0-4):"))
+    guess_col=int(input("Guess column (0-4):"))
+
 
 
 # run the game
