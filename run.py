@@ -35,8 +35,16 @@ def play_battleships():
     print_grid(grid)
 
     #Get player's guess
-    guess_row=int(input("Guess row (0-4):"))
-    guess_col=int(input("Guess column (0-4):"))
+    try:
+        guess_row=int(input("Guess row (0-4):"))
+        guess_col=int(input("Guess column (0-4):"))
+    except ValueError:
+        print("Please enter a valid integer between 0 and 4.")
+
+    #Check if guess is off the grid
+    if guess_row <0 or guess_row >=GRID_SIZE or guess_col<0 or guess_col>=GRID_SIZE:
+        print ("Try again, that's not on the grid!")
+
 
 
 
