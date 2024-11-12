@@ -56,8 +56,14 @@ def play_battleships():
     if guess_row <0 or guess_row >=GRID_SIZE or guess_col<0 or guess_col>=GRID_SIZE:
         print ("Try again, that's not on the grid!")
 
-
-
+    #Check if the player's guess hit the ship
+    if guess_row==ship_row and guess_col==ship_col:
+        print("Superb! You hit the battleship!")
+        grid[guess_row][guess_col]="X" 
+        print_grid(grid)
+        break
+    else:
+        
 
 # run the game
 play_battleships()
