@@ -16,7 +16,11 @@ def print_grid(grid):
         print(" ".join(row))
     print()
 
-
+#Randomly place the computer's ship
+def place_ship():
+    row=random.randint(0,GRID_SIZE-1)
+    col=random.randint(0,GRID_SIZE-1)
+    return row,col
 
 
 #Main game function
@@ -26,9 +30,11 @@ def play_battleships():
     grid = create_grid (GRID_SIZE)
     attempts = 0
     
+    #Place the computer's ship
+    ship_row, ship_col=place_ship()
 
     # Number of turns for the player
-    turns=3
+    turns = 2
     print("Let's play Battleships!")
     print("You have", turns, "turns to try and sink the ship by guessing its location on a 5x5 grid.")
     print ("Enter your guesses as row and column numbers (0-4).")
@@ -36,7 +42,7 @@ def play_battleships():
 
     #Loop the game
     for turn in range(turns):
-        print("\nTurn", turn+1)
+        print("\nTurn", turn + 1)
         print_grid(grid)
 
     #Get player's guess
