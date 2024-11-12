@@ -61,9 +61,10 @@ def play_battleships():
         print("Superb! You hit the battleship!")
         grid[guess_row][guess_col]="X" 
         print_grid(grid)
-        break
     else:
-        
+        print("Bad luck, you missed!")
+        grid[guess_row][guess_col]="M"
+
 
 # run the game
 play_battleships()
