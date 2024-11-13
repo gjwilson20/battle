@@ -22,22 +22,20 @@ def place_ship():
     col = random.randint(0, GRID_SIZE - 1)
     return row,col
 
-
 #Main game function
 def play_battleships():
 
     #Create game grid
-    grid = create_grid (GRID_SIZE)
+    grid = create_grid(GRID_SIZE)
     
     #Place the computer's ship
     ship_row, ship_col = place_ship()
 
     # Number of turns for the player
-    turns = 15
+    turns = 2
     print("Let's play Battleships!")
     print("You have", turns, "turns to try and sink the ship by guessing its location on a 5x5 grid.")
     print ("Enter your guesses as row and column numbers (0-4).")
-    print_grid(grid)
 
     #Loop the game
     for turn in range(turns):
@@ -70,6 +68,9 @@ def play_battleships():
             else:    
                 print("Bad luck, you missed!")
                 grid[guess_row][guess_col]="M"
+    
+    else: 
+        print("\nGame Over! You've run out of turns :( ")
 
 
 # run the game
