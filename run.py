@@ -71,6 +71,7 @@ def play_battleships():
     
     else: 
         print("\nGame Over! You've run out of turns :( ")
+        print("The battleship was hidden in the following location - Row:", ship_row,", Column:", ship_col)
 
 
 # run the game
