@@ -32,7 +32,7 @@ def play_battleships():
     ship_row, ship_col = place_ship()
 
     # Number of turns for the player
-    turns = 5
+    turns = 6
     print("Let's play Battleships!")
     print("You have", turns, "turns to try and sink the ship by guessing its location on a 5x5 grid.")
     print ("Enter your guesses as row and column numbers (0-4).")
@@ -48,6 +48,7 @@ def play_battleships():
             guess_col = int(input("Guess column (0-4): "))
         except ValueError:
             print("Please enter a valid integer between 0 and 4.")
+            continue
 
         #Check if guess is off the grid
         if guess_row < 0 or guess_row >= GRID_SIZE or guess_col < 0 or guess_col >= GRID_SIZE:
