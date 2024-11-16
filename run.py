@@ -32,7 +32,7 @@ def play_battleships():
     ship_row, ship_col = place_ship()
 
     # Number of turns for the player
-    turns = 6
+    turns = 10
     print("Let's play Battleships!")
     print("You have", turns, "turns to try and sink the ship by guessing its location on a 5x5 grid.")
     print ("Enter your guesses as row and column numbers (0-4).")
