@@ -67,7 +67,8 @@ I also test the code through a Pep8 Checker which noted some issues but upon cor
 ![Pep 8 checker](https://github.com/user-attachments/assets/2ca28310-8538-4a82-9152-82c79fa8618d)
 
 ## Deployment
-
+I managed to deploy my code through Heroku and it can be found on the link below:
+(https://batttleships-091ea881a49f.herokuapp.com/)  
 
 
 
