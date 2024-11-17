@@ -1,3 +1,4 @@
+
 ## Battleships
 Battleships (also known as Battleship) is a strategy type guessing game for two players. It is played on a grid on which a player's ship(s) are concealed from their opponent. The aim of the game is to correctly guess the co-ordinates for the opponent's hidden ship(s) with a correct guess resulting in a hit and sinking your opponent's ship. This game is player vs computer
 
@@ -37,7 +38,8 @@ The image below shows the message which is displayed when a valid hit is made an
 was hit.
 ![BS - correct hit](https://github.com/user-attachments/assets/16256b48-b892-4b4d-8b30-8b50b13e5c65)
 
-The image below shows what happens if the player runs out of turns. A message is displayed to notify them and the ship is finally displayed on the grid with an S and the co-ordinates are also provided.
+The image below shows what happens if the player runs out of turns. A message is displayed to notify them and the ship is
+finally displayed on the grid with an S and the co-ordinates are also provided.
 ![BS - End of game](https://github.com/user-attachments/assets/1fac3e97-2be8-4d4c-8eb5-93d793287987)
 
 
