@@ -70,6 +70,9 @@ I also test the code through a Pep8 Checker which noted some issues but upon cor
 I managed to deploy my code through Heroku and it can be found on the link below:
 (https://batttleships-091ea881a49f.herokuapp.com/)  
 
+## Credits and Acknowledgements
+During the build of my game I looked at the W3School website to learn more about classes and objects and also at the Geeks for Geeks site to undertake some further tutorials on python especially around arrays, try and if statements.
+
 
 
 
