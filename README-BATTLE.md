@@ -43,6 +43,33 @@ The image below shows what happens if the player runs out of turns. A message is
 finally displayed on the grid with an S and the co-ordinates are also provided.
 ![BS - End of game](https://github.com/user-attachments/assets/1fac3e97-2be8-4d4c-8eb5-93d793287987)
 
+## Future Features:
+If I had more time I would include some of the following features:
+1) More ships on the computer's board
+2) Player's board to also be shown with the ships visibly placed at the start of the game
+3) Ships with greater size than just one co-ordinate.
+
+## Testing:
+During the course of building the game I tested the code as I went. I had a number of issues which arose as I started coding:
+1)syntax error when displaying the grid to the player; the grid wouldn't show due to the syntax I had typed. I found this error and corrected it.
+
+2)Guess row and column error; the guesses allowed any input to be placed in as guesses and not just integers between 0 and 4. I found the error in the code and managed to fix this.
+
+3)Code not looping; when an incorrect choice had been made the game didn't loop back to prompt the player to guess another choice, there were no other instructions.  I managed to find the error in the coding to ensure it looped back around and gave the player the choice to input a colum and row choice again.
+
+4)Upon starting the game, all the turns were showing; when starting the game X amount of grids showed for the amount of turns available. I corrected this by ensuring the loop was working more efficiently and by ensuring that the print function printed what I needed to to do.
+
+5) When the player typed in a choice which was not an integer, the wrong error message was being displayed "Already Guessed" message was being shown; I fixed this by finding the error in the coding which had missing continue instructions for the loop.
+
+6) Amount of turns increased even when making an incorrect guess; this was fixed by including false statements to prevent the game from moving on to the next turn until a valid guess was made which therefore made the game more fair for the player.
+
+I also test the code through a Pep8 Checker which noted some issues but upon correcting them and making the changes, these seemed to prevent my code from running accurately and caused syntax errors.
+![Pep 8 checker](https://github.com/user-attachments/assets/2ca28310-8538-4a82-9152-82c79fa8618d)
+
+## Deployment
+
+
+
 
 
 
