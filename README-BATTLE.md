@@ -17,4 +17,19 @@ Battleships (also known as Battleship) is a strategy type guessing game for two 
 7) As a user I wanted to know where the computer's randomly generated ship was hidden if I didn't manage to find it within all my allocated guesses - I will know I have done this when the computer displays a message stating I have run out of turns and I displays an updated board with an S to demonstrate where the ship was hidden 
 
 ## Features
-![Start] (assets/images/BS - Start.jpg)
+
+![BS - Start](https://github.com/user-attachments/assets/266b5431-3d0e-48db-bd1e-a2e994080feb)
+
+![BS - second guess](https://github.com/user-attachments/assets/1783f6be-b7d2-4d39-9260-e263ff96b88a)
+
+![BS - guessed previous guess](https://github.com/user-attachments/assets/257807c1-a0d7-4fe9-84ed-555f2394275b)
+
+![BS - invalid guesses](https://github.com/user-attachments/assets/69fa9542-baf2-44f0-8eef-e3fa39bc89eb)
+
+![BS - correct hit](https://github.com/user-attachments/assets/16256b48-b892-4b4d-8b30-8b50b13e5c65)
+
+![BS - End of game](https://github.com/user-attachments/assets/1fac3e97-2be8-4d4c-8eb5-93d793287987)
+
+
+
+
