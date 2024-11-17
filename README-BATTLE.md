@@ -18,16 +18,22 @@ Battleships (also known as Battleship) is a strategy type guessing game for two 
 
 ## Features
 
+The image below shows how the game starts with an empty grid for the computer and the ship hidded.  The player gets to choose a column and a row to take their turn
 ![BS - Start](https://github.com/user-attachments/assets/266b5431-3d0e-48db-bd1e-a2e994080feb)
 
+The image below shows that the previous guess is marked on the board and that the turns have increased by one.
 ![BS - second guess](https://github.com/user-attachments/assets/1783f6be-b7d2-4d39-9260-e263ff96b88a)
 
+The image below shows that the player has placed a guess they have previously taken and ann error message has been returned advising them to try again.
 ![BS - guessed previous guess](https://github.com/user-attachments/assets/257807c1-a0d7-4fe9-84ed-555f2394275b)
 
+The image below shows that guesses which are not integers e.g. letters, or guesses which are off the grid are invalid and to try another guess. The amount of turns the player has still remains until a valid guess is made.
 ![BS - invalid guesses](https://github.com/user-attachments/assets/69fa9542-baf2-44f0-8eef-e3fa39bc89eb)
 
+The image below shows the message which is displayed when a valid hit is made and that the ship is marked by an X to show it was hit.
 ![BS - correct hit](https://github.com/user-attachments/assets/16256b48-b892-4b4d-8b30-8b50b13e5c65)
 
+The image below shows what happens if the player runs out of turns. A message is displayed to notify them and the ship is finally displayed on the grid with an S and the co-ordinates are also provided.
 ![BS - End of game](https://github.com/user-attachments/assets/1fac3e97-2be8-4d4c-8eb5-93d793287987)
 
 
