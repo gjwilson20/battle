@@ -47,8 +47,8 @@ def play_battleships():
 
         #Get player's guess
             try:
-                guess_row = int(input("Guess row (0-4): "))
-                guess_col = int(input("Guess column (0-4): "))
+                guess_row = int(input("Guess row (0-4): \n"))
+                guess_col = int(input("Guess column (0-4): \n"))
                 valid = True
             except ValueError:
                 print("Please enter a valid integer between 0 and 4.")
