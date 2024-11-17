@@ -36,6 +36,7 @@ try another guess. The amount of turns the player has still remains until a vali
 
 The image below shows the message which is displayed when a valid hit is made and that the ship is marked by an X to show it
 was hit.
+
 ![BS - correct hit](https://github.com/user-attachments/assets/16256b48-b892-4b4d-8b30-8b50b13e5c65)
 
 The image below shows what happens if the player runs out of turns. A message is displayed to notify them and the ship is
